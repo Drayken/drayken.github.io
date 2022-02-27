@@ -18,7 +18,6 @@
 		$formFILES = $_REQUEST['formFILES'];
           
 		// Performing insert query execution
-		// here our table name is college
 		$sql = "INSERT INTO tbsubmissions VALUES ('ID','TIMESTAMP','$formSUMNAME','$formREGION','$formDETAILS','$formFILES')";
 		if(mysqli_query($conn, $sql)){
 			echo "<h3>data stored in a database successfully." 

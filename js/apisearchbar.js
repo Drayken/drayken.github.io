@@ -14,7 +14,7 @@ const resSumIcon = document.getElementById('resSumIcon');
 const resSumLvl = document.getElementById('resSumLvl');
 const resSumRank = document.getElementById('resSumRank');
 const cblStatus = document.getElementById('cblStatus');
-const apiKey = "RGAPI-36a75ad9-7ec5-4527-8d64-d5717e6fc484";
+const apiKey = "API_KEY_HERE_NOT_PUBLIC";
 const urlKey = "?api_key=" + apiKey;
 
 //fetch("https://ddragon.leagueoflegends.com/api/versions.json",{method: GET})
