@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="bootstrap/bootstrap-5.0.0-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/defaultstyle.css">
+        <title>LolCBL - Homepage</title>
+    </head>
+
+<!-- Body -->
+    <body>
+<!-- Page Header -->
+        <header>
+            <div class="headerimg">
+                <a href="index.html">
+                    <div class="headertext">
+                        <h1>LoL<span>CBL</span></h1>
+                        <p>Community Ban List</p>
+                    </div>
+                </a>
+                <div class="headerdivider"></div>
+            </div>
+        </header>
+<!-- Main Content Container -->
+        <div class="container">
+            
+<!-- Placeholder space -->
+            <div class="row adbanner_top"><div class="col-12">Advertisement banner space meme</div></div>    
+<!-- Stuff -->
+            <div class="row">
+<!-- FAQ Accordions -->
+                <section class="accordion-section clearfix" aria-label="Question Accordions">
+                    <div class="container">
+                        <h2>Guidelines  &amp; Frequently Asked Questions</h2>
+                        <hr>
+                        <div class="accordion" id="faqAccordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><strong>What is LoLCBL?</strong></button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                <strong>LoLCBL</strong> seeks to supply a solution to a problem which has been plaguing the League of Legends community for years. A similar system known as <i>"The Tribunal"</i> was put in place by Riot Games for a short period of time, however it proved unsuccessful at making a difference and was barely used outside of players making misuse of the system in order to collect its rewards. For years, a large vocal minority of the League of Legends community, and popular personalities, have been pleading its developers to release and make use of a similar system with small adjustments but to no avail. LoLCBL was inspired from a similar project titled "<a href="https://thecbl.net/"><u>TheCBL</u></a>" which was terminated in 2015; a volunteer-driven Community Ban List for the game <i>Combat Arms</i> published by Nexon. It was widely used and respected within the Combat Arms community for various purposes such as clan recruitment and even came to be publicly recognized by Nexon America. TheCBL was instrumental in the suspension of tens of thousands of cheaters, and was an efficient deterrent against anyone who would consider making use of cheats, bug exploits and other kinds of unfair advantages within the game. LoLCBL aims to do the same, however its extent would cover more behaviours, especially griefing.
+                                </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><strong>How does it work?</strong></button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                LoLCBL pulls information from Riot Games' various APIs to show Summoner information. When players are reported and flagged, their PUUID is stored in a database which we check with every search in order to display one's CBL Status. Reports are sent in by users, verified by CBL Staff, and ultimately approved or denied according to our guidelines. Once a report has been approved, all information pertaining to that report will be publicly displayed on their CBL profile.
+                                </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><strong>How do I submit a report?</strong></button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                <strong>Required Information:</strong> Summoner Name, Region &amp; Evidence.<br><br>
+                                There is a button on both the homepage and summoner page which will open up a report form. From there, you should provide as much relevant information as possible in order to maximize the odds of your report being approved. It is also recommended that you provide context and, if possible, a direct link to the match history. <i>(i.e. <a href="https://matchhistory.na.leagueoflegends.com/en/#page/landing-page" target="_blank">https://matchhistory.na.leagueoflegends.com/en/#page/landing-page</a>)</i><br><br>
+                                <ul>
+                                    <li>Images can be uploaded to the form, filesize limited to 8MB.</li>
+                                    <li>Videos should be linked through youtube, mega, dropbox or other file-hosting services with video preview.</li>
+                                    <li>Replay files are not supported due to being incompatible between client versions.</li>
+                                 </ul>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFourr"><strong>What constitutes behaviour which warrants CBL flagging?</strong></button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                <strong>Most of what you would expect from LoL's <a href="https://leagueoflegends.fandom.com/wiki/Summoner's_Code" target="_blank">Summoner's Code.</a></strong> <i>(Minus the cringespeak addressed to 5 year olds)</i><br>
+                                We do not consider basic banter or "toxicity" as negative behaviour which warrants CBL Flagging, however the following behaviour does:<br><hr>
+                                    <ul><li><b>Griefing</b></li><i><ul>
+                                            <li>Intentional Feeding</li>
+                                            <li>AFKing with clear intent</li>
+                                            <li>Trolling teammates</li>
+                                            <li>Wintrading</li>
+                                            <li>Other cases of blatant griefing</li></ul></i>                            
+                                        <li><b>Cheating</b></li><i><ul>
+                                            <li>Scripting</li>
+                                            <li>Drophacking</li>
+                                            <li>Wintrading</li>
+                                            <li>Abusing Exploits</li></ul></i>
+                                        <li><b>Excessive Toxicity</b></li><i><ul>
+                                            <li>Death threats</li>
+                                            <li>Bigotry (e.g., Racism, Sexism, Homophobia, etc.)</li>
+                                            <li>Doxing and/or Personal Harassment</li></ul></i>
+                                        <li><b>More to be added</b></li></ul>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><strong>Can I clear my CBL Status once I've been flagged?</strong></button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                <strong>You can appeal your CBL Status.</strong> By default, any flagged profile will also contain a button which allows you to fill in an appeal form. If you are unable to prove ownership of the account, the appeal will be rejected regardless of any other information provided. If CBL Staff finds that your profile was incorrectly flagged, your status will be cleared. Do keep in mind that flagging reversal is incredibly rare, as flagging should only be done when the player has been found guilty beyond reasonable doubt. Also note that CBL Staff will never accept payment to clear CBL Statuses.
+                                </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"><strong>What if a flagged Summoner purchases a name change or region transfer?</strong></button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                <strong>CBL Status is tied to an account's PUUID.</strong><br>
+                                PUUIDs are globally unique, encrypted identifiers tied to a player's account. Regardless of whether a player changes their summoner name or transfers to another region, their encrypted PUUID will always remain the same. Note that encrypted IDs supplied on LoLCBL may not transferable to other unaffiliated projects.<br><br>
+                                You can read more about Riot's documentation on player IDs here: <a href="https://riot-api-libraries.readthedocs.io/en/latest/ids.html" target="_blank">https://riot-api-libraries.readthedocs.io/en/latest/ids.html</a>
+                                </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+<!-- Footer -->
+        <footer class="site-footer">
+            <div class="container padding">
+                <div class="row">
+                    <div class="aboutus"><h6>Copyright &copy; 2021 All Rights Reserved by <a href="https://LoLCBL.net/">LoLCBL</a>.</h6>
+                        <p>Inspired from a terminated project, "<a href="https://thecbl.net/" target="_blank"><u>TheCBL</u></a>" for Combat Arms, LoLCBL aims to bring back similar functions to the original Tribunal system by Riot Games. In the case of LoLCBL however, users are able to submit reports for players who they believe are infringing upon the Summoner's Code - LoLCBL Staff would then reject or approve them according to a thorough, trusted and transparent process. If a player is found to be guilty their profile would then on be permanently flagged and all offenses, with provided evidence, publicly listed on their profile. To better understand our guidelines, please visit our <a href="faq.html"><u>Guidelines &amp; FAQ section</u></a>.</p>
+<!-- Once a Summoner profile is flagged users are then able to forward a pre-formatted report to Riot Games. CBL Statuses are tied to an account's PUUID, it cannot be dodged with a name change. If you believe a judgement to be incorrect, options to appeal will be available on flagged profiles. -->
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div>
+                        <p class="footer_disclaimer">LoLCBL isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+<!-- JavaScript --><!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="bootstrap/bootstrap-5.0.0-dist/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/a3ec209641.js" crossorigin="anonymous"></script>
+<!-- End -->
+    </body>
+</html>

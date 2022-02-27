@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="bootstrap/bootstrap-5.0.0-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/defaultstyle.css">
+        <title>LolCBL - Homepage</title>
+    </head>
+
+<!-- Body -->
+    <body>
+<!-- Page Header -->
+        <header>
+            <div class="headerimg">
+                <a href="index.html">
+                    <div class="headertext">
+                        <h1>LoL<span>CBL</span></h1>
+                        <p>Community Ban List</p>
+                    </div>
+                </a>
+                <div class="headerdivider"></div>
+            </div>
+        </header>
+<!-- Main Content Container -->
+        <div class="container">
+            
+<!-- Placeholder space -->
+            <div class="row adbanner_top"><div class="col-12">Advertisement banner space meme</div></div>    
+<!-- Stuff -->
+            <div class="row">
+<!-- Player Data -->
+                <div class="col-8">
+                    <div class="row summonercard">
+                        <div class="col-2 sumicon_container">
+                            <img id="resSumIcon" src="http://ddragon.leagueoflegends.com/cdn/11.13.1/img/profileicon/29.png" alt="Icon" class="img-rounded sum_pro_icon"/>
+                            <div id="resSumLvl"></div>
+                        </div>
+                        <div class="col-7 profiledata">
+                            <h4 id="resSumName1"></h4>
+                            <small id="resSumRank"></small>
+                        </div>
+                        <div class="col-3 sumstatus">
+                        <h4>STATUS</h4>
+                        <hr>
+                        <h4 id="cblStatus"></h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <table class="table table-striped table-bordered table-hover">
+                                <thead class="table-dark">
+                                <tr><th class="nohighlight" scope="col">Identification</th><th scope="col" class="w85 nohighlight"></th></tr></thead>
+                                <tbody>
+                                <tr><th class="nohighlight" scope="row">Name</th><td id="resSumName2"></td></tr>
+                                <tr><th class="nohighlight" scope="row">SummonerID</th><td id="resSumID" ></td></tr>
+                                <tr><th class="nohighlight" scope="row">AccountID</th><td id="resAccID" ></td></tr>
+                                <tr><th class="nohighlight" scope="row">PUUID</th><td id="resPUUID" ></td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+<!-- Search & Submit -->
+                <div class="col-4">
+                    <div class="row searchSection">
+                        <div class="input-group">
+                            <!-- Region Selector -->
+                            <div class="input-group-prepend">
+                                <select id="sumSearchRegion" class="form-select bg-secondary text-light regionBtn" role="button">
+                                    <option value="NA1">NA</option>
+                                    <option value="EUW1">EUW</option>
+                                    <option value="EUN1">EUNE</option>
+                                    <option value="KR">KR</option>
+                                    <option value="JP1">JP</option>
+                                    <option value="OC1">OCE</option>
+                                    <option value="BR1">BR</option>
+                                    <option value="LA1">LAN</option>
+                                    <option value="LA2">LAS</option>                                    
+                                    <option value="RU">RU</option>
+                                    <option value="TR1">TR</option>
+                                </select>
+                            </div>
+                            <input id="sumSearchName" type="search" class="form-control" placeholder="Summoner name . . ." aria-label="Search" aria-describedby="search-addon"/>
+                            <div class="input-group-append">
+                                <button id="sumSearchButton" type="button" class="cblcolorbg btn btn-danger">fetch</button>
+                            </div>
+                        </div>
+<!-- Report Button + Modal -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Footer -->
+        <footer class="site-footer">
+            <div class="container padding">
+                <div class="row">
+                    <div class="aboutus"><h6>Copyright &copy; 2021 All Rights Reserved by <a href="https://LoLCBL.net/">LoLCBL</a>.</h6>
+                        <p>Inspired from a terminated project, "<a href="https://thecbl.net/" target="_blank"><u>TheCBL</u></a>" for Combat Arms, LoLCBL aims to bring back similar functions to the original Tribunal system by Riot Games. In the case of LoLCBL however, users are able to submit reports for players who they believe are infringing upon the Summoner's Code - LoLCBL Staff would then reject or approve them according to a thorough, trusted and transparent process. If a player is found to be guilty their profile would then on be permanently flagged and all offenses, with provided evidence, publicly listed on their profile. To better understand our guidelines, please visit our <a href="faq.html"><u>Guidelines & FAQ section</u></a>.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div>
+                        <p class="footer_disclaimer">LoLCBL isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+<!-- JavaScript --><!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="bootstrap/bootstrap-5.0.0-dist/js/bootstrap.min.js"></script>
+<!-- Summoner Search Javascript -->
+        <script src="js/apisearchbar.js"></script>
+<!-- End -->
+</html>
